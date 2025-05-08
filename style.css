@@ -1,0 +1,118 @@
+
+  
+   body {
+    font-family: 'Arial', sans-serif;
+    padding: 50px;
+    justify-content: center;
+    background-color: hsl(210, 46%, 95%);
+  }
+  .parent-container {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    gap: 30px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  .profile.image {
+    display: flex;
+  }
+  .child-container {
+    margin-right: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+  
+  .daniel {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 30px;
+  }
+  .dan {
+    background-color: hsl(263, 55%, 52%);
+    color: hsl(210, 46%, 95%);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  }
+ 
+  
+  .username {
+    font-size:16px;
+    font-weight: bold;
+    line-height: 1;
+  }
+  .graduation-status {
+    font-size: 1.5rem;
+    color:fadedblack;
+  }
+  
+  .text {
+    font-weight: var(--fw-700);
+    font-size: 1.25rem;
+    margin: 1rem 0;
+    line-height: 1.3;
+  }
+ 
+  
+  .childdiv {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 30px;
+
+  }
+  
+  img {
+    border-radius: 50%;
+    margin-right: 20px;
+    width: 32px;
+    height: 32px;
+  }
+
+  h2 {
+    margin: 0;
+    padding: 0;
+  }
+  
+  p {
+    font-size: 0.75rem;
+    line-height: 1.75;
+  }
+
+  .walter, .harmon, .abrams, .kira {
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  }
+
+  .walter {
+    background-color: hsl(217, 19%, 35%);
+    color: hsl(0, 0%, 81%);
+  }
+  
+  .harmon {
+    background-color: white;
+    color: hsl(219, 29%, 14%);
+   
+  }
+
+  .abrams {
+    background-color: hsl(219, 29%, 14%);
+    color: hsl(0, 0%, 81%);
+  }
+  .kira {
+    background-color: white;
+    color: hsl(219, 29%, 14%);
+  }
+  .attribution {
+    font-size: 0.8rem;
+    color: black;
+    text-align: center;
+    margin-top: 20px;
+  }
+  .attribution a {
+    color: hsl(263, 55%, 52%);
+    text-decoration: none;
+  }
+  
+ 
