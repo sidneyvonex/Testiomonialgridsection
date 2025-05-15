@@ -114,5 +114,52 @@
     color: hsl(263, 55%, 52%);
     text-decoration: none;
   }
+
+
+  @media screen and (max-width: 1024px) {
+  .parent-container {
+    grid-template-columns: 1fr;
+    padding: 20px;
+  }
+
+  .daniel, .childdiv {
+    grid-template-columns: 1fr;
+  }
+
+  .child-container {
+    margin-right: 0;
+  }
+
+  img {
+    width: 40px;
+    height: 40px;
+  }
+
+  .text {
+    font-size: 1rem;
+  }
+
+  .username {
+    font-size: 1rem;
+  }
+
+  .graduation-status {
+    font-size: 0.8rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  body {
+    padding: 20px;
+  }
+
+  .text {
+    font-size: 0.9rem;
+  }
+
+  .attribution {
+    font-size: 0.7rem;
+  }
+}
   
  
